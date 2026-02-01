@@ -22,7 +22,7 @@ const uint16_t PING_TIMEOUT_US   = 30000; // Timeout for pulseIn
 const uint8_t  PING_SAMPLES      = 5;     // Median of 5
 const uint16_t PING_GAP_MS       = 40;    // Gap between pings
 
-const uint16_t SERVO_SETTLE_MS   = 500;   // Tune based on servo
+const uint16_t SERVO_SETTLE_MS   = 500;   // Time for servo to settle
 
 // Speeds (0..255). Tune these to reduce overshoot / slipping.
 const uint8_t SPEED_FWD  = 210;
@@ -125,6 +125,7 @@ uint16_t getDistanceCm()
 {
   uint16_t v[PING_SAMPLES];
 
+  // Take PING_SAMPLES times ping values
   for (uint8_t i = 0; i < PING_SAMPLES; i++) 
   {
     v[i] = pingOnceCm();
@@ -152,6 +153,7 @@ uint16_t getDistanceCm()
 // ---------------- SERVO LOOK ----------------
 void lookTo(uint8_t angle) 
 {
+  // Do not let angles over 180 degrees
   if (angle > 180) 
   {
     angle = 180;
@@ -188,6 +190,7 @@ void setup()
   // Start with controlled speed
   setSpeed(SPEED_FWD, SPEED_FWD);
 
+  // Let everything finish with a small delay
   delay(300);
 }
 
