@@ -15,7 +15,7 @@ const uint8_t RIGHT_MOTOR_PIN2 = 4;
 
 // ---------------- TUNING ----------------
 const uint16_t DISTANCE_LIMIT_CM = 30;
-const uint16_t TURN_TIME_MS      = 600;   
+const uint16_t TURN_TIME_MS      = 700;   
 const uint16_t NO_ECHO_CM        = 999;
 
 const uint16_t PING_TIMEOUT_US   = 30000; // Timeout for pulseIn
