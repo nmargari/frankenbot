@@ -190,7 +190,6 @@ void setup()
   // Start with controlled speed
   setSpeed(SPEED_FWD, SPEED_FWD);
 
-  // Let everything finish with a small delay
   delay(300);
 }
 
