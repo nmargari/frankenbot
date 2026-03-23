@@ -23,3 +23,9 @@ The UGV architecture is based on an Arduino Uno R4 WiFi board connected to an Ul
 # Logic Flow
 ![frankenbot](https://github.com/user-attachments/assets/eee9752c-5f29-4d7c-a44c-c4b53ffc971b)
 
+# It's alive!
+![5](https://github.com/user-attachments/assets/b90f5061-4a00-4aca-8252-b6ca83f1d2e6)
+![4](https://github.com/user-attachments/assets/60698c2f-aae0-4942-ae35-2d6450d8e0fa)
+![3](https://github.com/user-attachments/assets/430951ab-844b-46ee-81e6-59f7b2149fa9)
+![2](https://github.com/user-attachments/assets/d4d537f3-6fd3-426b-a503-a7fc607bb82d)
+![1](https://github.com/user-attachments/assets/8d28b3e8-b2bb-4621-b044-2f35f1c95382)
